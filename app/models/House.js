@@ -15,4 +15,17 @@ export class House {
     this.createdAt = data.createdAt
     this.updatedAt = data.updatedAt
   }
+
+  getCardHTMLTemplate() {
+    return /*html*/`
+    <div class="col-12 p-0 mb-3">
+      <div class="row bg-light shadow">
+        <div class="col-md-4 p-0">
+          <img class="img-fluid car-img"
+            src="${this.imgUrl}"
+            alt="${this.year} ${this.make} ${this.model}">
+        </div>
+      </div>
+    </div>`
+  }
 }
