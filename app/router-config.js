@@ -17,6 +17,9 @@ export const router = new Router([
         <a href="#/cars">
           <button class="btn btn-outline-dark" title="Go to the cars page">🚗</button>
         </a>
+        <a href="#/houses">
+          <button class="btn btn-outline-dark" title="Go to the houses page">🏘️</button>
+        </a>
       </div>
     </div>
     `
@@ -39,7 +42,7 @@ export const router = new Router([
   {
     path: '#/houses',
     controllers: [HousesController],
-    view: 'app/views/HousesView.html'
+    view: 'app/views/HousesView.html',
   }
 ])
 
