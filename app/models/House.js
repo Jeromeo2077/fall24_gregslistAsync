@@ -23,7 +23,7 @@ export class House {
         <div class="col-md-4 p-0">
           <img class="img-fluid car-img"
             src="${this.imgUrl}"
-            alt="${this.year} ${this.make} ${this.model}">
+            alt="${this.year} ${this.bedrooms} ${this.model}">
         </div>
       </div>
     </div>`
