@@ -5,6 +5,7 @@ export class HousesController {
   constructor() {
     console.log('HousesController Loaded');
 
+    this.getHouses()
   }
 
   async getHouses() {
